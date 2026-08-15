@@ -40,9 +40,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium neque veritatis temporibus dolor soluta cumque facere
-            dolorem distinctio a est?
+            DevOps enthusiast focused on building, deploying, and troubleshooting containerized applications.
+            Hands-on experience with Linux, Docker, Kubernetes, CI/CD, monitoring, and cloud technologies, with a strong focus on automation and reliability.
           </p>
 
           <a href="#contact" className="btn btn-primary">
