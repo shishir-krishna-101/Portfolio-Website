@@ -1,5 +1,5 @@
 # This site should look like this - 
-![Landing Page](./public/portfolio-screenshot.png)
+![Landing Page](https://raw.githubusercontent.com/shishir-krishna-101/Portfolio-Website/main/public/portfolio-screenshot.png)
 
 [DEPLOYED LINK - PORTFOLIO](https://shishir-portfolio.pages.dev/#main)
 
