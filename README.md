@@ -1,7 +1,7 @@
 # This site should look like this - 
-![Landing Page](https://github.com/aadepeng/portfolio_1/blob/main/Portfolio.png?raw=true)
+![Landing Page](./public/portfolio-screenshot.png)
 
-[DEPLOYED LINK - PORTFOLIO](https://portfoliolandingpagee.netlify.app/#main)
+[DEPLOYED LINK - PORTFOLIO](https://shishir-portfolio.pages.dev/#main)
 
 
 
