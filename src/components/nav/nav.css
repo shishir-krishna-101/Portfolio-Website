@@ -1,5 +1,5 @@
-nav{
-    background: rgb(0,0,0,0.3);
+nav {
+    background: var(--nav-bg);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -9,25 +9,45 @@ nav{
     transform: translateX(-50%);
     bottom: 2rem;
     display: flex;
+    align-items: center;
     gap: 0.9rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
 }
 
-nav a{
+nav a,
+.theme-toggle {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--color-light);
     font-size: 1.1rem;
+    transition: var(--transition);
+    cursor: pointer;
 }
 
-nav a:hover{
-    background: rgb(0,0,0,0.3);
+nav a:hover,
+.theme-toggle:hover {
+    background: var(--nav-hover);
 }
 
 nav a.active {
     background: var(--color-primary);
-    color: var(--color-bg) ;
+    color: var(--color-bg);
+}
+
+.theme-toggle {
+    background: var(--toggle-bg);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+}
+
+.theme-toggle svg {
+    font-size: 1.2rem;
 }
