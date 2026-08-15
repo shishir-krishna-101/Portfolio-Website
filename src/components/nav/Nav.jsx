@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineMoon, AiOutlineSun, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { BsSun, BsMoon } from "react-icons/bs";
 import { RiServiceLine } from "react-icons/ri";
 
 const Nav = ({ theme, onToggleTheme }) => {
@@ -51,7 +52,7 @@ const Nav = ({ theme, onToggleTheme }) => {
         onClick={onToggleTheme}
         aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
       >
-        {theme === "dark" ? <AiOutlineSun /> : <AiOutlineMoon />}
+        {theme === "dark" ? <BsSun /> : <BsMoon />}
       </button>
     </nav>
   );
