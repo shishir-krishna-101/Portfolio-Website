@@ -29,15 +29,15 @@
 }
 
 :root[data-theme='light'] {
-    --color-bg: #f3f6fb;
-    --color-bg-variant: #dfeaf8;
-    --color-primary: #2563eb;
-    --color-primary-variant: rgba(37, 99, 235, 0.18);
-    --color-white: #1f2937;
-    --color-light: rgba(31, 41, 55, 0.7);
-    --nav-bg: rgba(255, 255, 255, 0.8);
-    --nav-hover: rgba(37, 99, 235, 0.08);
-    --toggle-bg: rgba(37, 99, 235, 0.08);
+    --color-bg: #e0f0ff;
+    --color-bg-variant: #cce5ff;
+    --color-primary: #0055cc;
+    --color-primary-variant: rgba(0, 85, 204, 0.15);
+    --color-white: #0f172a;
+    --color-light: rgba(15, 23, 42, 0.65);
+    --nav-bg: rgba(255, 255, 255, 0.85);
+    --nav-hover: rgba(0, 85, 204, 0.1);
+    --toggle-bg: rgba(0, 85, 204, 0.12);
 }
 
 html {
